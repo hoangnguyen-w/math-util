@@ -29,7 +29,7 @@ public class MathUtility {
         
         //đến đoạn này sure n từ 2..20
         //return n * getFactorial(n - 1);
-        long result = 0;    //cố tình heng, lát tính tiếp
+        long result = 1;    //cố tình heng, lát tính tiếp
         for (int i = 2; i <= n; i++) {
             result = result * i;
         }
