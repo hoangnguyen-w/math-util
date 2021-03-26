@@ -21,18 +21,26 @@ public class MathUtility {
     //ko có giai thừa âm
     //vì giai thừa tăng cực nhanh về giá trị, 21 tràn kiểu long
     //long: 10^18, 18 con số 0 tối đa
+//    public static long getFactorial(int n){
+//        if(n < 0 || n > 20)
+//            throw new IllegalArgumentException("Invalid argument. n must be between 0..20");
+//        if(n < 2)
+//            return 1;   //0! = 1! = 1 tính luôn cho nhanh
+//        
+//        //đến đoạn này sure n từ 2..20
+//        //return n * getFactorial(n - 1);
+//        long result = 1;    //cố tình heng, lát tính tiếp
+//        for (int i = 2; i <= n; i++) {
+//            result = result * i;
+//        }
+//        return result;
+//    }
+    
     public static long getFactorial(int n){
         if(n < 0 || n > 20)
             throw new IllegalArgumentException("Invalid argument. n must be between 0..20");
-        if(n < 2)
-            return 1;   //0! = 1! = 1 tính luôn cho nhanh
-        
-        //đến đoạn này sure n từ 2..20
-        //return n * getFactorial(n - 1);
-        long result = 1;    //cố tình heng, lát tính tiếp
-        for (int i = 2; i <= n; i++) {
-            result = result * i;
-        }
-        return result;
+        if(n == 0 || n == 1)
+                return 1;       //0! = 1! = 1 tính luôn cho nhanh
+        return n * getFactorial(n - 1);         //mình thừa biết n! = n * ( n - 1)!
     }
 }
