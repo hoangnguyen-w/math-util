@@ -1,7 +1,7 @@
 ## Welcome to Math Utility repository. This repo offers various math methods those are used as a helper for your project
 
 [![MathUtil project | CI process included | © 2021 by hoangnguyen](https://github.com/hoangnguyen-w/math-util/actions/workflows/main.yml/badge.svg)](https://github.com/hoangnguyen-w/math-util/actions/workflows/main.yml)
-https://sonarcloud.io/api/project_badges/measure?project=hoangnguyen-w_math-util&metric=bugs
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=hoangnguyen-w_math-util)](https://sonarcloud.io/dashboard?id=hoangnguyen-w_math-util)
 
 
 ### *_You will find in this repo the floowing stuff:_*
