@@ -2,6 +2,7 @@
 
 [![MathUtil project | CI process included | © 2021 by hoangnguyen](https://github.com/hoangnguyen-w/math-util/actions/workflows/main.yml/badge.svg)](https://github.com/hoangnguyen-w/math-util/actions/workflows/main.yml)
 [![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=hoangnguyen-w_math-util)](https://sonarcloud.io/dashboard?id=hoangnguyen-w_math-util)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=hoangnguyen-w_math-util&metric=bugs)](https://sonarcloud.io/dashboard?id=hoangnguyen-w_math-util)
 
 
 ### *_You will find in this repo the floowing stuff:_*
